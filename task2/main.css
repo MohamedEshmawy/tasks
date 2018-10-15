@@ -1,0 +1,226 @@
+body
+{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.header
+{
+    padding: 0px 16px;
+    width: 100%;
+    background: #2ddf5c;
+}
+
+#header-title_div
+{
+    display: inline-block;
+}
+
+.header-brand-title
+{
+    
+    color: #0e4f1f;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.main_nav
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 75px);
+}
+
+.nav_item
+{
+    display: inline-block;
+    margin: 0 25px;
+}
+
+
+.nav_item a
+{
+    text-decoration: none;
+    color: #0e4f1f;
+    font-weight: bold;
+    padding: 3px 0;
+}
+
+.nav_item_special a
+{
+    background-color: #ff1b68;
+    color:white;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.nav_item a:hover,
+.nav_item a:active {
+    color: white;
+    border-bottom: 5px solid white;
+}
+
+.nav_item_special a:hover,
+.nav_item_special a:active {
+    color: #ff1b68;
+    background: white;
+    border: none;
+}
+
+#product-overview
+{
+    background: url("freedom.jpg");
+    width: 100%;
+    height: 528px;
+    padding: 10px; 
+}
+
+#product-overview p
+{
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.plans
+{
+    margin: 0 0 150px 0;
+}
+
+#plans-title
+{
+    text-align  : center;
+    color: #2ddf5c;
+}
+
+.plan-normal
+{
+    background: #d5ffdc;
+    text-align: center;
+    width: 30%;
+    display: inline-block;
+    margin: 0px 7px;
+    padding: 15px 8px;
+}
+.plan-special
+{
+    background: #19b84c;
+    color: white;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+    padding: 15px 0px 30px 0px;
+}
+
+
+.plan-normal h1
+{
+    color: #0e4f1f;
+    font-size: 18px;
+}
+.plan-special h1
+{
+    background: white;
+    color: #19b84c;
+    padding: 7px 0px;
+    margin: 0px 8px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+}
+
+.plan-normal h2
+{
+    color: #858585;
+}
+.plan-special h3 h2 li
+{
+    color: white;
+}
+
+.plan-features
+{
+    padding:0;
+    list-style: none;
+}
+
+button
+{
+    background: #0e4f1f;
+    color: white;
+    font: inherit;
+    border: 1.5px solid #0e4f1f;
+    padding: 8px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover,
+button:active 
+{
+    background: white;
+    color: #0e4f1f;
+}
+button:focus 
+{
+    outline: none;
+}
+
+.good-reasons
+{
+    text-align: center;
+    background: #ff1b68;
+    padding: 16px;
+    color:white;
+    margin: 0 0 50px 0;
+}
+
+.good-reason
+{
+    width:30%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.circle
+{
+    background: #ffcede;
+    width: 128px;
+    height: 128px;
+    border: 2px solid #424242;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.footer
+{
+    background-color: black;
+    padding: 32px;
+}
+
+.footer-nav_items
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center
+}
+
+.footer-nav_item
+{
+    display: inline-block;
+    margin: 0 0 0 0;
+    
+}
+
+.footer-nav_item a 
+{
+    text-decoration: none;
+    color: white;
+    padding: 0px 20px;
+}
